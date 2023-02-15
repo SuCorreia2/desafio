@@ -1,0 +1,84 @@
+body {
+	background: white;
+	font-family: 'Poppins', sans-serif;
+}
+.caixa {
+	height: 64px;
+	width: 600px;
+	padding: 22px 107px 12px 66px;
+}
+
+.cabecalhoPrincipal-titulo {
+	display: flex;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.banner {
+	width: 100%;
+}
+
+.cabecalhoPrincipal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #FFE0FC;
+	padding: 40px 24px 40px;
+	line-height: 36px;
+}
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+}
+
+input {
+	padding: 12px 24px 12px 24px;
+	background: black;
+	border-radius: 2px;
+	font-size: 14px;
+	color: white;
+	margin: 50px;
+}
+
+input:hover {
+	opacity: 0.7;
+}
+
+input:active {
+	color: grey;
+}
+	
+.corpoemail {
+	font-size: 16px;
+	line-height: 200%;
+	padding: 55px;
+}
+
+p:first-child {
+	font-weight: bold;
+	line-height: 58px;
+}
+
+footer {
+	background: black;
+	padding: 24px 80px 20px;
+	color: white;
+	font-size: 10px;
+	line-height: 20px;
+}
+
+footer p:first-child {
+	font-size: 14px;
+}
+
+a {
+	padding: 10px;
+	margin: 4px;
+}
+
+.sub:hover {
+	font-style: italic;
+	text-decoration-color: grey;
+}
+
